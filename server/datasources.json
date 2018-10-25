@@ -1,6 +1,12 @@
 {
   "db": {
+    "host": "localhost",
+    "port": 27017,
+    "url": "mongodb://nahuel@localhost:27017",
+    "database": "gastos",
+    "password": "nahuel",
     "name": "db",
-    "connector": "memory"
+    "user": "nahuel",
+    "connector": "mongodb"
   }
 }
